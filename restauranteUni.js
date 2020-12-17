@@ -46,9 +46,9 @@ var porc10e15 = (porcEntre10e15*100).toFixed(2);
 var porcMais15 = (entrevistados * maisDe15.length)/ 100;
 var porc15 = (porcMais15*100).toFixed(2);
 document.write("A quantidade de alunos entrevistados foi de: "+ entrevistados + ' alunos.');
-document.write("\nO percentual de alunos que utilizaram menos de 10 vezes o restaurante é: " + porc10 + '%.');
-document.write("\nO percentual de alunos que utilizaram entre 10 e 15 vezes é: " + porc10e15 + '%.');
-document.write("\nO percentual de alunos que utilizaram o restaurante acima de 15 vezes é: " + porc15 + '%.');
+document.write("<br> O percentual de alunos que utilizaram menos de 10 vezes o restaurante é: " + porc10 + '%.');
+document.write("<br> O percentual de alunos que utilizaram entre 10 e 15 vezes é: " + porc10e15 + '%.');
+document.write("<br> O percentual de alunos que utilizaram o restaurante acima de 15 vezes é: " + porc15 + '%.');
 
 
 
